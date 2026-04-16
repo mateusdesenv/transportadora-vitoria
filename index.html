@@ -18,8 +18,8 @@
 
             <nav>
                 <a href="#">HOME</a>
-                <a href="#">SERVIÇOS</a>
-                <a href="#">QUEM SOMOS</a>
+                <a href="#services-section">SERVIÇOS</a>
+                <a href="#quem-somos-section">QUEM SOMOS</a>
                 <a href="#" class="btn">SOLICITAR ORÇAMENTO</a>
             </nav>
         </header>
@@ -67,7 +67,7 @@
             <div class="cards-diferenciais" id="container-main-cards-2">
             </div>
         </div>
-        <div class="container-servicos">
+        <div class="container-servicos" id="services-section">
             <div class="titulos-diferenciais">
                 <span class="span-diferencial-1">O que fazemos</span>
                 <span class="span-diferencial-2">Nossos Serviços</span>
@@ -77,58 +77,257 @@
             </div>
 
             <div class="cards-servicos">
-                <div class="card-servico">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="64" height="64" rx="16" fill="#0C448D" />
-                        <path
-                            d="M41.3333 38.6666H44C44.8 38.6666 45.3333 38.1333 45.3333 37.3333V33.3333C45.3333 32.1333 44.4 31.0666 43.3333 30.7999C40.9333 30.1333 37.3333 29.3333 37.3333 29.3333C37.3333 29.3333 35.6 27.4666 34.4 26.2666C33.7333 25.7333 32.9333 25.3333 32 25.3333H22.6667C21.8667 25.3333 21.2 25.8666 20.8 26.5333L18.9333 30.3999C18.7568 30.9149 18.6667 31.4555 18.6667 31.9999V37.3333C18.6667 38.1333 19.2 38.6666 20 38.6666H22.6667"
-                            stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M25.3333 41.3333C26.8061 41.3333 28 40.1394 28 38.6667C28 37.1939 26.8061 36 25.3333 36C23.8606 36 22.6667 37.1939 22.6667 38.6667C22.6667 40.1394 23.8606 41.3333 25.3333 41.3333Z"
-                            stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M28 38.6667H36" stroke="white" stroke-width="2.66667" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path
-                            d="M38.6667 41.3333C40.1394 41.3333 41.3333 40.1394 41.3333 38.6667C41.3333 37.1939 40.1394 36 38.6667 36C37.1939 36 36 37.1939 36 38.6667C36 40.1394 37.1939 41.3333 38.6667 41.3333Z"
-                            stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+                <div class="container-cards-servicos">
+                    <div class="card-servico">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="64" height="64" rx="16" fill="#0C448D" />
+                            <path
+                                d="M41.3333 38.6666H44C44.8 38.6666 45.3333 38.1333 45.3333 37.3333V33.3333C45.3333 32.1333 44.4 31.0666 43.3333 30.7999C40.9333 30.1333 37.3333 29.3333 37.3333 29.3333C37.3333 29.3333 35.6 27.4666 34.4 26.2666C33.7333 25.7333 32.9333 25.3333 32 25.3333H22.6667C21.8667 25.3333 21.2 25.8666 20.8 26.5333L18.9333 30.3999C18.7568 30.9149 18.6667 31.4555 18.6667 31.9999V37.3333C18.6667 38.1333 19.2 38.6666 20 38.6666H22.6667"
+                                stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M25.3333 41.3333C26.8061 41.3333 28 40.1394 28 38.6667C28 37.1939 26.8061 36 25.3333 36C23.8606 36 22.6667 37.1939 22.6667 38.6667C22.6667 40.1394 23.8606 41.3333 25.3333 41.3333Z"
+                                stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M28 38.6667H36" stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M38.6667 41.3333C40.1394 41.3333 41.3333 40.1394 41.3333 38.6667C41.3333 37.1939 40.1394 36 38.6667 36C37.1939 36 36 37.1939 36 38.6667C36 40.1394 37.1939 41.3333 38.6667 41.3333Z"
+                                stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
 
-                    <span class="title-service">Transporte de Veículos</span>
-                    <span class="subtitle-service">Serviço especializado no transporte de veículos
-                        leves e pesados com cuidado e segurança, do
-                        ponto A ao ponto B.</span>
-                    <ul>
-                        <li>Veículos leves</li>
-                        <li>Caminhões cegonha próprios</li>
-                        <li>Cobertura nacional</li>
-                    </ul>
+                        <span class="title-service">Transporte de Veículos</span>
+                        <span class="subtitle-service">Serviço especializado no transporte de veículos
+                            leves e pesados com cuidado e segurança, do
+                            ponto A ao ponto B.</span>
+                        <ul>
+                            <li>Veículos leves</li>
+                            <li>Caminhões cegonha próprios</li>
+                            <li>Cobertura nacional</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-servico">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="64" height="64" rx="16" fill="#0C448D" />
+                            <path
+                                d="M32.2933 18.6667H31.7067C30.9994 18.6667 30.3211 18.9477 29.8211 19.4478C29.321 19.9479 29.04 20.6262 29.04 21.3334V21.5734C29.0395 22.041 28.9161 22.5003 28.6821 22.9052C28.448 23.3101 28.1117 23.6463 27.7067 23.8801L27.1333 24.2134C26.728 24.4475 26.2681 24.5707 25.8 24.5707C25.3319 24.5707 24.8721 24.4475 24.4667 24.2134L24.2667 24.1067C23.6548 23.7538 22.9278 23.658 22.2453 23.8405C21.5629 24.023 20.9807 24.4688 20.6267 25.0801L20.3333 25.5867C19.9804 26.1987 19.8846 26.9256 20.0671 27.6081C20.2496 28.2905 20.6954 28.8727 21.3067 29.2267L21.5067 29.3601C21.9097 29.5928 22.2448 29.9269 22.4787 30.3292C22.7126 30.7315 22.8372 31.188 22.84 31.6534V32.3334C22.8419 32.8033 22.7195 33.2654 22.4854 33.6728C22.2513 34.0802 21.9136 34.4185 21.5067 34.6534L21.3067 34.7734C20.6954 35.1275 20.2496 35.7096 20.0671 36.3921C19.8846 37.0745 19.9804 37.8015 20.3333 38.4134L20.6267 38.9201C20.9807 39.5314 21.5629 39.9772 22.2453 40.1597C22.9278 40.3422 23.6548 40.2464 24.2667 39.8934L24.4667 39.7867C24.8721 39.5527 25.3319 39.4295 25.8 39.4295C26.2681 39.4295 26.728 39.5527 27.1333 39.7867L27.7067 40.1201C28.1117 40.3539 28.448 40.6901 28.6821 41.095C28.9161 41.4998 29.0395 41.9591 29.04 42.4267V42.6667C29.04 43.374 29.321 44.0523 29.8211 44.5524C30.3211 45.0525 30.9994 45.3334 31.7067 45.3334H32.2933C33.0006 45.3334 33.6789 45.0525 34.179 44.5524C34.6791 44.0523 34.96 43.374 34.96 42.6667V42.4267C34.9605 41.9591 35.0839 41.4998 35.318 41.095C35.552 40.6901 35.8884 40.3539 36.2933 40.1201L36.8667 39.7867C37.2721 39.5527 37.7319 39.4295 38.2 39.4295C38.6681 39.4295 39.128 39.5527 39.5333 39.7867L39.7333 39.8934C40.3452 40.2464 41.0722 40.3422 41.7547 40.1597C42.4371 39.9772 43.0193 39.5314 43.3733 38.9201L43.6667 38.4001C44.0197 37.7882 44.1154 37.0612 43.9329 36.3788C43.7504 35.6963 43.3046 35.1141 42.6933 34.7601L42.4933 34.6534C42.0864 34.4185 41.7488 34.0802 41.5146 33.6728C41.2805 33.2654 41.1581 32.8033 41.16 32.3334V31.6667C41.1581 31.1969 41.2805 30.7348 41.5146 30.3274C41.7488 29.92 42.0864 29.5817 42.4933 29.3467L42.6933 29.2267C43.3046 28.8727 43.7504 28.2905 43.9329 27.6081C44.1154 26.9256 44.0197 26.1987 43.6667 25.5867L43.3733 25.0801C43.0193 24.4688 42.4371 24.023 41.7547 23.8405C41.0722 23.658 40.3452 23.7538 39.7333 24.1067L39.5333 24.2134C39.128 24.4475 38.6681 24.5707 38.2 24.5707C37.7319 24.5707 37.2721 24.4475 36.8667 24.2134L36.2933 23.8801C35.8884 23.6463 35.552 23.3101 35.318 22.9052C35.0839 22.5003 34.9605 22.041 34.96 21.5734V21.3334C34.96 20.6262 34.6791 19.9479 34.179 19.4478C33.6789 18.9477 33.0006 18.6667 32.2933 18.6667Z"
+                                stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M32 36C34.2091 36 36 34.2091 36 32C36 29.7909 34.2091 28 32 28C29.7909 28 28 29.7909 28 32C28 34.2091 29.7909 36 32 36Z"
+                                stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+                        <span class="title-service">Transporte de Veículos</span>
+                        <span class="subtitle-service">Serviço especializado no transporte de veículos
+                            leves e pesados com cuidado e segurança, do
+                            ponto A ao ponto B.</span>
+                        <ul>
+                            <li>Veículos leves</li>
+                            <li>Caminhões cegonha próprios</li>
+                            <li>Cobertura nacional</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="card-servico">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="64" height="64" rx="16" fill="#0C448D" />
+                <button class="btn-contato-wpp-servicos">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
-                            d="M32.2933 18.6667H31.7067C30.9994 18.6667 30.3211 18.9477 29.8211 19.4478C29.321 19.9479 29.04 20.6262 29.04 21.3334V21.5734C29.0395 22.041 28.9161 22.5003 28.6821 22.9052C28.448 23.3101 28.1117 23.6463 27.7067 23.8801L27.1333 24.2134C26.728 24.4475 26.2681 24.5707 25.8 24.5707C25.3319 24.5707 24.8721 24.4475 24.4667 24.2134L24.2667 24.1067C23.6548 23.7538 22.9278 23.658 22.2453 23.8405C21.5629 24.023 20.9807 24.4688 20.6267 25.0801L20.3333 25.5867C19.9804 26.1987 19.8846 26.9256 20.0671 27.6081C20.2496 28.2905 20.6954 28.8727 21.3067 29.2267L21.5067 29.3601C21.9097 29.5928 22.2448 29.9269 22.4787 30.3292C22.7126 30.7315 22.8372 31.188 22.84 31.6534V32.3334C22.8419 32.8033 22.7195 33.2654 22.4854 33.6728C22.2513 34.0802 21.9136 34.4185 21.5067 34.6534L21.3067 34.7734C20.6954 35.1275 20.2496 35.7096 20.0671 36.3921C19.8846 37.0745 19.9804 37.8015 20.3333 38.4134L20.6267 38.9201C20.9807 39.5314 21.5629 39.9772 22.2453 40.1597C22.9278 40.3422 23.6548 40.2464 24.2667 39.8934L24.4667 39.7867C24.8721 39.5527 25.3319 39.4295 25.8 39.4295C26.2681 39.4295 26.728 39.5527 27.1333 39.7867L27.7067 40.1201C28.1117 40.3539 28.448 40.6901 28.6821 41.095C28.9161 41.4998 29.0395 41.9591 29.04 42.4267V42.6667C29.04 43.374 29.321 44.0523 29.8211 44.5524C30.3211 45.0525 30.9994 45.3334 31.7067 45.3334H32.2933C33.0006 45.3334 33.6789 45.0525 34.179 44.5524C34.6791 44.0523 34.96 43.374 34.96 42.6667V42.4267C34.9605 41.9591 35.0839 41.4998 35.318 41.095C35.552 40.6901 35.8884 40.3539 36.2933 40.1201L36.8667 39.7867C37.2721 39.5527 37.7319 39.4295 38.2 39.4295C38.6681 39.4295 39.128 39.5527 39.5333 39.7867L39.7333 39.8934C40.3452 40.2464 41.0722 40.3422 41.7547 40.1597C42.4371 39.9772 43.0193 39.5314 43.3733 38.9201L43.6667 38.4001C44.0197 37.7882 44.1154 37.0612 43.9329 36.3788C43.7504 35.6963 43.3046 35.1141 42.6933 34.7601L42.4933 34.6534C42.0864 34.4185 41.7488 34.0802 41.5146 33.6728C41.2805 33.2654 41.1581 32.8033 41.16 32.3334V31.6667C41.1581 31.1969 41.2805 30.7348 41.5146 30.3274C41.7488 29.92 42.0864 29.5817 42.4933 29.3467L42.6933 29.2267C43.3046 28.8727 43.7504 28.2905 43.9329 27.6081C44.1154 26.9256 44.0197 26.1987 43.6667 25.5867L43.3733 25.0801C43.0193 24.4688 42.4371 24.023 41.7547 23.8405C41.0722 23.658 40.3452 23.7538 39.7333 24.1067L39.5333 24.2134C39.128 24.4475 38.6681 24.5707 38.2 24.5707C37.7319 24.5707 37.2721 24.4475 36.8667 24.2134L36.2933 23.8801C35.8884 23.6463 35.552 23.3101 35.318 22.9052C35.0839 22.5003 34.9605 22.041 34.96 21.5734V21.3334C34.96 20.6262 34.6791 19.9479 34.179 19.4478C33.6789 18.9477 33.0006 18.6667 32.2933 18.6667Z"
-                            stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M32 36C34.2091 36 36 34.2091 36 32C36 29.7909 34.2091 28 32 28C29.7909 28 28 29.7909 28 32C28 34.2091 29.7909 36 32 36Z"
-                            stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M6.58333 16.6666C8.17382 17.4825 10.0034 17.7035 11.7424 17.2898C13.4814 16.876 15.0155 15.8548 16.0681 14.4101C17.1208 12.9654 17.6228 11.1922 17.4838 9.41009C17.3448 7.62797 16.5738 5.9541 15.3098 4.69012C14.0459 3.42614 12.372 2.65517 10.5899 2.51614C8.80774 2.37711 7.03456 2.87916 5.58985 3.93183C4.14514 4.9845 3.12391 6.51855 2.71019 8.25755C2.29646 9.99655 2.51745 11.8261 3.33333 13.4166L1.66667 18.3333L6.58333 16.6666Z"
+                            stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
 
+                    <span>Solicitar orçamento por whatsapp</span>
+                </button>
+            </div>
 
-                    <span class="title-service">Transporte de Veículos</span>
-                    <span class="subtitle-service">Serviço especializado no transporte de veículos
-                        leves e pesados com cuidado e segurança, do
-                        ponto A ao ponto B.</span>
-                    <ul>
-                        <li>Veículos leves</li>
-                        <li>Caminhões cegonha próprios</li>
-                        <li>Cobertura nacional</li>
-                    </ul>
+        </div>
+
+        <div class="container-quem-somos" id="quem-somos-section">
+
+            <div class="centralizador-de-container">
+                <div class="container-esquerdo">
+                    <span class="span-quem-somos-1">QUEM SOMOS</span>
+                    <span class="span-quem-somos-2">Mais de 35 anos transportando confiança</span>
+                    <span class="span-quem-somos-3">A <span class="color-primary-yellow">Transportadora Vitória</span>
+                        nasceu do compromisso de oferecer um serviço de
+                        transporte que une agilidade, segurança e atendimento humanizado.</span>
+                    <span class="span-quem-somos-4">Ao longo de mais de três décadas e meia de atuação, construímos uma
+                        reputação
+                        sólida baseada na entrega pontual, cuidado com a carga e relacionamento
+                        transparente com nossos clientes e parceiros.</span>
+                    <span class="span-quem-somos-5">Com frota própria, equipe treinada e tecnologia de rastreamento,
+                        garantimos que
+                        cada entrega seja realizada com o máximo de eficiência e tranquilidade.</span>
+                </div>
+                <div class="container-direito">
+                    <div class="item">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="48" height="48" rx="12" fill="#F7C626" />
+                            <path
+                                d="M24 34C29.5228 34 34 29.5228 34 24C34 18.4772 29.5228 14 24 14C18.4772 14 14 18.4772 14 24C14 29.5228 18.4772 34 24 34Z"
+                                stroke="#051529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24 30C27.3137 30 30 27.3137 30 24C30 20.6863 27.3137 18 24 18C20.6863 18 18 20.6863 18 24C18 27.3137 20.6863 30 24 30Z"
+                                stroke="#051529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24 26C25.1046 26 26 25.1046 26 24C26 22.8954 25.1046 22 24 22C22.8954 22 22 22.8954 22 24C22 25.1046 22.8954 26 24 26Z"
+                                stroke="#051529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div>
+                            <span class="title">Missão</span>
+                            <br>
+                            <span class="subtitle">Oferecer soluções logísticas com excelência, segurança e compromisso,
+                                conectando pessoas e empresas em todo o Brasil.</span>
+                        </div>
+                    </div>
+                    <div class="item">
+
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="48" height="48" rx="12" fill="#F7C626" />
+                            <path
+                                d="M14.062 24.3481C13.9787 24.1236 13.9787 23.8766 14.062 23.6521C14.8737 21.684 16.2515 20.0012 18.0208 18.817C19.79 17.6329 21.871 17.0007 24 17.0007C26.129 17.0007 28.21 17.6329 29.9792 18.817C31.7485 20.0012 33.1263 21.684 33.938 23.6521C34.0213 23.8766 34.0213 24.1236 33.938 24.3481C33.1263 26.3163 31.7485 27.9991 29.9792 29.1832C28.21 30.3674 26.129 30.9995 24 30.9995C21.871 30.9995 19.79 30.3674 18.0208 29.1832C16.2515 27.9991 14.8737 26.3163 14.062 24.3481Z"
+                                stroke="#051529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24 27C25.6569 27 27 25.6569 27 24C27 22.3431 25.6569 21 24 21C22.3431 21 21 22.3431 21 24C21 25.6569 22.3431 27 24 27Z"
+                                stroke="#051529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div>
+                            <span class="title">Visão</span>
+                            <br>
+                            <span class="subtitle">Ser referência nacional em transporte rodoviário, reconhecida pela
+                                qualidade,
+                                inovação e respeito ao cliente.</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="48" height="48" rx="12" fill="#F7C626" />
+                            <path
+                                d="M31 26C32.49 24.54 34 22.79 34 20.5C34 19.0413 33.4205 17.6424 32.3891 16.6109C31.3576 15.5795 29.9587 15 28.5 15C26.74 15 25.5 15.5 24 17C22.5 15.5 21.26 15 19.5 15C18.0413 15 16.6424 15.5795 15.6109 16.6109C14.5795 17.6424 14 19.0413 14 20.5C14 22.8 15.5 24.55 17 26L24 33L31 26Z"
+                                stroke="#051529" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+                        <div>
+                            <span class="title">Valores</span>
+                            <br>
+                            <span class="subtitle">Ética, transparência, compromisso com prazos, valorização das pessoas
+                                e
+                                melhoria contínua em todos os processos.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="horizontal-row"></div>
+
+            <div class="centralizador-de-metricas">
+                <div class="item-metrica">
+                    <span class="quem-somos-title">35+</span>
+                    <span class="quem-somos-subtitle">Anos de Experiência</span>
                 </div>
 
+                <div class="item-metrica">
+                    <span class="quem-somos-title">5.000+</span>
+                    <span class="quem-somos-subtitle">Entregas Realizadas</span>
+                </div>
+
+                <div class="item-metrica">
+                    <span class="quem-somos-title">500+</span>
+                    <span class="quem-somos-subtitle">Clientes Atendidos</span>
+                </div>
             </div>
         </div>
+
+        <div class="pre-footer">
+            <span class="pre-footer-title">Precisa transportar seu veículo?</span>
+            <span class="pre-footer-subtitle">Entre em contato agora mesmo e receba um orçamento
+                personalizado em poucos minutos.</span>
+            <div class="centralizador-de-buttons">
+                <button class="btn-1">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.58333 16.6669C8.17381 17.4827 10.0034 17.7037 11.7424 17.29C13.4814 16.8763 15.0155 15.8551 16.0681 14.4104C17.1208 12.9656 17.6228 11.1925 17.4838 9.41034C17.3448 7.62821 16.5738 5.95434 15.3098 4.69036C14.0459 3.42638 12.372 2.65541 10.5899 2.51638C8.80774 2.37735 7.03456 2.87941 5.58985 3.93207C4.14514 4.98474 3.12391 6.51879 2.71018 8.2578C2.29646 9.9968 2.51745 11.8264 3.33333 13.4169L1.66666 18.3335L6.58333 16.6669Z"
+                            stroke="#051529" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span>Falar com Especialista</span>
+                </button>
+                <button class="btn-2">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.3333 14.0999V16.5999C18.3343 16.832 18.2867 17.0617 18.1938 17.2744C18.1008 17.487 17.9644 17.6779 17.7934 17.8348C17.6224 17.9917 17.4205 18.1112 17.2006 18.1855C16.9808 18.2599 16.7478 18.2875 16.5167 18.2666C13.9524 17.988 11.4892 17.1117 9.325 15.7083C7.31152 14.4288 5.60445 12.7217 4.325 10.7083C2.91665 8.53426 2.0402 6.05908 1.76667 3.48325C1.74584 3.25281 1.77323 3.02055 1.84708 2.80127C1.92094 2.58199 2.03964 2.38049 2.19564 2.2096C2.35163 2.03871 2.5415 1.90218 2.75316 1.80869C2.96481 1.7152 3.19362 1.6668 3.425 1.66658H5.925C6.32942 1.6626 6.72149 1.80582 7.02813 2.06953C7.33478 2.33324 7.53506 2.69946 7.59167 3.09992C7.69719 3.89997 7.89288 4.68552 8.175 5.44158C8.28712 5.73985 8.31139 6.06401 8.24492 6.37565C8.17846 6.68729 8.02405 6.97334 7.8 7.19992L6.74167 8.25825C7.92796 10.3445 9.65538 12.072 11.7417 13.2583L12.8 12.1999C13.0266 11.9759 13.3126 11.8215 13.6243 11.755C13.9359 11.6885 14.2601 11.7128 14.5583 11.8249C15.3144 12.107 16.0999 12.3027 16.9 12.4083C17.3048 12.4654 17.6745 12.6693 17.9388 12.9812C18.2031 13.2931 18.3435 13.6912 18.3333 14.0999Z"
+                            stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span>Ligar agora</span>
+                </button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-top">
+                <div style="display: flex; justify-content: end;">
+                    <span style="font-size: 14px;">Soluções completas em transporte de cargas e veículos. Mais
+                        de 15 anos conectando empresas em todo o Brasil.</span>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <span style="font-size: 16px; color: white; font-weight: bold;">Links Rápidos</span>
+
+                    <ul class="ul-footer">
+                        <li>Home</li>
+                        <li>Serviços</li>
+                        <li>Quem Somos</li>
+                    </ul>
+                </div>
+                <div>
+                    <span style="font-size: 16px; color: white; font-weight: bold;">Contato</span>
+                    <ul class="ul-footer">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.6667 11.2802V13.2802C14.6674 13.4659 14.6294 13.6497 14.555 13.8198C14.4806 13.9899 14.3715 14.1426 14.2347 14.2681C14.0979 14.3937 13.9364 14.4892 13.7605 14.5487C13.5846 14.6082 13.3983 14.6303 13.2133 14.6136C11.1619 14.3907 9.19134 13.6897 7.46001 12.5669C5.84923 11.5433 4.48356 10.1777 3.46001 8.56689C2.33333 6.8277 1.63217 4.84756 1.41334 2.78689C1.39668 2.60254 1.41859 2.41673 1.47767 2.24131C1.53676 2.06589 1.63172 1.90469 1.75652 1.76797C1.88131 1.63126 2.03321 1.52203 2.20253 1.44724C2.37186 1.37245 2.5549 1.33374 2.74001 1.33356H4.74001C5.06354 1.33038 5.3772 1.44495 5.62251 1.65592C5.86783 1.86689 6.02806 2.15986 6.07334 2.48023C6.15775 3.12027 6.31431 3.74871 6.54001 4.35356C6.6297 4.59218 6.64911 4.8515 6.59594 5.10081C6.54277 5.35012 6.41925 5.57897 6.24001 5.76023L5.39334 6.60689C6.34238 8.27592 7.72431 9.65786 9.39334 10.6069L10.24 9.76023C10.4213 9.58099 10.6501 9.45746 10.8994 9.40429C11.1487 9.35112 11.4081 9.37053 11.6467 9.46023C12.2515 9.68593 12.88 9.84248 13.52 9.92689C13.8439 9.97258 14.1396 10.1357 14.351 10.3852C14.5624 10.6348 14.6748 10.9533 14.6667 11.2802Z"
+                                    stroke="#F7C626" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>(51) 99630-4406</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.3333 2.6665H2.66668C1.9303 2.6665 1.33334 3.26346 1.33334 3.99984V11.9998C1.33334 12.7362 1.9303 13.3332 2.66668 13.3332H13.3333C14.0697 13.3332 14.6667 12.7362 14.6667 11.9998V3.99984C14.6667 3.26346 14.0697 2.6665 13.3333 2.6665Z"
+                                    stroke="#F7C626" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M14.6667 4.6665L8.68668 8.4665C8.48086 8.59545 8.24289 8.66384 8.00001 8.66384C7.75713 8.66384 7.51916 8.59545 7.31334 8.4665L1.33334 4.6665"
+                                    stroke="#F7C626" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                            <span>transvitoriapm@gmail.com</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.3333 6.66683C13.3333 9.9955 9.64066 13.4622 8.40066 14.5328C8.28514 14.6197 8.14452 14.6667 7.99999 14.6667C7.85546 14.6667 7.71484 14.6197 7.59932 14.5328C6.35932 13.4622 2.66666 9.9955 2.66666 6.66683C2.66666 5.25234 3.22856 3.89579 4.22875 2.89559C5.22895 1.8954 6.5855 1.3335 7.99999 1.3335C9.41448 1.3335 10.771 1.8954 11.7712 2.89559C12.7714 3.89579 13.3333 5.25234 13.3333 6.66683Z"
+                                    stroke="#F7C626" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M8 8.6665C9.10457 8.6665 10 7.77107 10 6.6665C10 5.56193 9.10457 4.6665 8 4.6665C6.89543 4.6665 6 5.56193 6 6.6665C6 7.77107 6.89543 8.6665 8 8.6665Z"
+                                    stroke="#F7C626" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Gravataí, RS — Atendimento em todo o Brasil</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="horizontal-row"></div>
+            <div class="footer-bottom">
+                <span>© 2026 Transportadora Vitória. Todos os direitos reservados.</span>
+            </div>
+        </footer>
 
     </section>
     <script src="script.js"></script>
