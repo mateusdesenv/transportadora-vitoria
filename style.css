@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, #0a1f3c, #0d2b52);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.btn {
+    background-color: #e11d2e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #c51625;
+}
+
+/* Wallpaper inicial */
+
+.wallpaper-inicial {
+    width: 100%;
+    height: calc(100% - 84px);
+    position: absolute;
+    background-image: url('assets/capa_site_transportadora_vitoria.png');
+    background-size: cover;
+    /* Ensures image fills the container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+}
+
+.wallpaper-inicial div {
+    width: 60%;
+}
+
+.span-circle-experiencia {
+    color: #f7c626;
+    border: 1px solid #f7c626;
+    background-color: #f7c6266e;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 12px;   
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: lighter;
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+}
+
+.color-primary-yellow {
+    color: #f7c626;
+}
+
+.container-contatos {
+    display: flex;
+}
+
+.btn-contato-wpp-inicio {
+    background-color: #e11d2e;
+    color: white;
+    border: none;
+}
+
+.container-contatos button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.btn-nossos-servicos-inicio {
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
