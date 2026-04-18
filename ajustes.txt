@@ -9,4 +9,5 @@
 * pre footer
     (Done) mais padding para ocupar tela toda+
 
-Ajustar rodapé
+Ajustar rodapé e add logo
+Vídeo na tela incial
