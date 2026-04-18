@@ -112,7 +112,7 @@ header {
     }
 
     .subtitle-service {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
 
 }
@@ -369,9 +369,53 @@ h3 {
     }
 
     .card-servico {
-        width: 80% !important;
+        width: 100% !important;
+        padding: 60px !important;
     }
 
+
+    .title-service {
+        font-size: 34px !important;
+    }
+
+    .subtitle-service {
+        font-size: 28px !important;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card-servico ul li {
+        font-size: 22px !important;
+        font-weight: 500;
+    }
+
+    .btn-contato-wpp-servicos {
+        width: 40%;
+        font-size: 24px;
+    }
+
+    .container-footer-contatos {
+        display: none !important;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 50px 80px !important;
+    }
+
+    .footer-top div {
+        width: 100% !important;
+        margin-top: 40px;
+        text-align: start;
+    }
+
+    .links-rapidos {
+        align-items: start!important;   
+    }
 }
 
 .span-diff-svg {
@@ -605,6 +649,7 @@ button:hover {
     margin: 20px 0;
     color: rgba(255, 255, 255, 0.7);
     font-weight: lighter;
+    text-align: center;
 }
 
 .centralizador-de-buttons {
@@ -688,3 +733,8 @@ footer span {
 }
 
 .span-diff-subtitle {}
+
+.links-rapidos {
+    display: flex;
+    align-items: center;
+}
