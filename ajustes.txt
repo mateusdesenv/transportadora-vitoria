@@ -1,0 +1,10 @@
+* Wallpaper inicio
+    - botões maiores
+    - estatisticas mais margem em cima
+
+* Geral
+    - mont serrat
+    * Cards com hover com box shadow e fundo de icones
+
+* pre footer
+    mais padding para ocupar tela toda+
