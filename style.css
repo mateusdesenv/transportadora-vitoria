@@ -35,24 +35,24 @@ header {
     }
 
     .wallpaper-inicial {
-        padding-top: 80px!important;
-        padding-bottom: 80px!important;
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
     }
 
     .wallpaper-inicial div {
-        width: 100%!important;
+        width: 100% !important;
     }
 
     .span-circle-experiencia {
-        font-size: 26px!important;
+        font-size: 26px !important;
     }
 
     h1 {
-        font-size: 65px!important;
+        font-size: 65px !important;
     }
 
     h3 {
-        font-size: 35px!important;   
+        font-size: 35px !important;
     }
 
     .container-contatos {
@@ -63,9 +63,48 @@ header {
     .container-contatos button {
         margin-top: 20px;
         font-size: 30px;
-        padding: 30px 10px!important;
+        padding: 30px 10px !important;
         font-weight: bold;
     }
+
+
+    .span-diff-title {
+        font-size: 28px !important;
+    }
+
+    .span-diff-subtitle {
+        font-size: 24px !important;
+    }
+
+    .centralizador-de-container {
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+        flex-direction: column;
+    }
+
+    .centralizador-de-container .container-esquerdo,
+    .centralizador-de-container .container-direito {
+        width: 100%;
+    }
+
+    .centralizador-de-container .container-direito {
+        margin-top: 50px;
+    }
+
+    .centralizador-de-buttons {
+        flex-direction: column;
+    }
+
+    .centralizador-de-buttons button {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .pre-footer {
+        padding: 50px 40px !important;
+        text-align: center;
+    }
+
 }
 
 .padding-default {
@@ -217,6 +256,19 @@ h3 {
 
     .card {
         width: 100% !important;
+        padding: 50px !important;
+    }
+
+    .span-diferencial-1 {
+        font-size: 28px !important;
+    }
+
+    .span-diferencial-2 {
+        font-size: 48px !important;
+    }
+
+    .span-diferencial-3 {
+        font-size: 24px !important;
     }
 }
 
@@ -231,6 +283,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 40px;
+    text-align: center;
     /* margin-top: 50px; */
 }
 
@@ -346,6 +400,7 @@ h3 {
 button {
     transition: .2s;
 }
+
 button:hover {
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.15);
 }
@@ -590,4 +645,10 @@ footer span {
 
 .ul-footer li span {
     margin-left: 10px;
+}
+
+/* Perdidos */
+
+.svg-item-servico:hover {
+    fill: hsl(46 93% 56%) !important;
 }
