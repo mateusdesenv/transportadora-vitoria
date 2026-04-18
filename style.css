@@ -74,11 +74,12 @@ header {
 
     .span-diff-subtitle {
         font-size: 24px !important;
+        font-weight: 600;
     }
 
     .centralizador-de-container {
-        padding-top: 50px!important;
-        padding-bottom: 50px!important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
         flex-direction: column;
     }
 
@@ -103,6 +104,15 @@ header {
     .pre-footer {
         padding: 50px 40px !important;
         text-align: center;
+    }
+
+
+    .title-service {
+        font-size: 30px;
+    }
+
+    .subtitle-service {
+        font-size: 24px!important;
     }
 
 }
@@ -187,7 +197,7 @@ h1 {
 }
 
 h3 {
-    font-weight: lighter;
+    font-weight: 500;
     color: rgb(179, 179, 179);
     font-size: 20px;
 }
@@ -316,7 +326,7 @@ h3 {
 }
 
 #container-main-cards-2 {
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
 }
 
 .card {
@@ -339,12 +349,12 @@ h3 {
     color: #051529;
     font-weight: bold;
     font-size: 18px;
-    margin: 10px 0px;
+    margin: 30px 0px;
 }
 
 .span-diff-subtitle {
     color: #576475;
-    font-weight: lighter;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -361,6 +371,30 @@ h3 {
     .card-servico {
         width: 80% !important;
     }
+
+}
+
+.span-diff-svg {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(12, 68, 141, 0.1);
+    border-radius: 15px;
+}
+
+.span-diff-svg,
+.span-diff-svg svg {
+    transition: .2s;
+}
+
+.card:hover>.span-diff-svg {
+    background: rgba(12, 68, 141, 1);
+}
+
+.card:hover>.span-diff-svg svg {
+    fill: white;
 }
 
 
@@ -416,7 +450,7 @@ button:hover {
     margin-top: 10px;
     color: #576475;
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .card-servico ul li {
@@ -652,3 +686,5 @@ footer span {
 .svg-item-servico:hover {
     fill: hsl(46 93% 56%) !important;
 }
+
+.span-diff-subtitle {}
