@@ -218,7 +218,13 @@ h3 {
     border: none;
 }
 
-.container-contatos button {
+.container-contatos a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.container-contatos a button {
+    min-height: 60px;
     padding: 10px 20px;
     margin-right: 10px;
     border-radius: 10px;
