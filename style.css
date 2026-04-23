@@ -158,28 +158,59 @@ nav a:hover {
 }
 
 /* Wallpaper inicial */
-
 .wallpaper-inicial {
     margin-top: 69px;
     width: 100%;
     min-height: 100%;
-    background-image: url('./assets/capa_site_transportadora_vitoria.png');
-    background-size: cover;
-    /* Ensures image fills the container */
-    background-position: center;
-    /* Centers the image */
-    background-repeat: no-repeat;
-    /* padding: 10px 180px; */
+    position: relative;
+    overflow: hidden;
+
     display: flex;
     flex-direction: column;
-    align-items: space-around;
     justify-content: center;
+
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
+/* VÍDEO DE FUNDO */
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* OVERLAY ESCURO */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(
+        to right,
+        rgba(5, 21, 41, 0.95),
+        rgba(5, 21, 41, 0.7),
+        rgba(5, 21, 41, 0.3)
+    );
+
+    z-index: 1;
+}
+
+/* GARANTE QUE O CONTEÚDO FIQUE POR CIMA */
+.wallpaper-inicial > *:not(.bg-video):not(.overlay) {
+    position: relative;
+    z-index: 2;
+}
+
 .wallpaper-inicial div {
-    width: 60%;
+    width: 100%;
 }
 
 .span-circle-experiencia {

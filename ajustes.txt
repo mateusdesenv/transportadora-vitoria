@@ -9,5 +9,6 @@
 * pre footer
     (Done) mais padding para ocupar tela toda+
 
-Ajustar rodapé e add logo
+* Ajustar rodapé e add logo
+Link para whatsapp
 Vídeo na tela incial
