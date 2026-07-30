@@ -76,7 +76,7 @@ for (let index = 0; index < itens.length; index++) {
 
     itensHtml.push(element);
 }
-document.getElementById('container-main-cards').innerHTML = itensHtml;
+document.getElementById('container-main-cards').innerHTML = itensHtml.join('');
 itensHtml = [];
 for (let index = 0; index < itens2.length; index++) {
     const item = itens2[index];
@@ -90,4 +90,4 @@ for (let index = 0; index < itens2.length; index++) {
 
     itensHtml.push(element);
 }
-document.getElementById('container-main-cards-2').innerHTML = itensHtml;
+document.getElementById('container-main-cards-2').innerHTML = itensHtml.join('');

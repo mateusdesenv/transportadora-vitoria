@@ -9,30 +9,33 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap"
         rel="stylesheet">
     <meta name="description"
         content="Transportadora de veículos com atendimento em todo o Brasil. Solicite seu orçamento rápido via WhatsApp.">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
     <section class="main-container">
         <header class="padding-default">
             <div class="logo">
-                <!-- Substitua pelo seu logo -->
-                <img src="./assets/logo.png" alt="Logo">
+                <a href="#" aria-label="Transvitória — página inicial">
+                    <img src="./assets/logo.png" alt="Transvitória">
+                </a>
             </div>
 
-            <nav>
+            <nav aria-label="Navegação principal">
                 <a href="#">HOME</a>
                 <a href="#services-section">SERVIÇOS</a>
                 <a href="#quem-somos-section">QUEM SOMOS</a>
-                <a href="https://wa.me/5551996304406" target="_blank" class="btn">SOLICITAR ORÇAMENTO</a>
+                <a href="https://wa.me/5551996304406" target="_blank" rel="noopener noreferrer"
+                    class="btn">SOLICITAR ORÇAMENTO</a>
             </nav>
         </header>
 
 
-        <section class="wallpaper-inicial padding-default">
+        <section class="wallpaper-inicial padding-default" id="main-content">
 
             <!-- VÍDEO DE FUNDO -->
             <video autoplay muted loop playsinline class="bg-video">
@@ -54,13 +57,13 @@
             </div>
 
             <div class="container-contatos">
-                <a href="https://wa.me/5551996304406" target="_blank">
-                    <button class="btn-contato-wpp-inicio">
+                <a href="https://wa.me/5551996304406" target="_blank" rel="noopener noreferrer">
+                    <span class="btn-contato-wpp-inicio">
                         <span>Solicitar orçamento por whatsapp</span>
-                    </button>
+                    </span>
                 </a>
                 <a href="#services-section">
-                    <button class="btn-nossos-servicos-inicio">Nossos serviços</button>
+                    <span class="btn-nossos-servicos-inicio">Nossos serviços</span>
                 </a>
             </div>
 
@@ -159,15 +162,18 @@
                     </div>
                 </div>
 
-                <button class="btn-contato-wpp-servicos">
+                <a class="service-cta" href="https://wa.me/5551996304406" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="btn-contato-wpp-servicos">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6.58333 16.6666C8.17382 17.4825 10.0034 17.7035 11.7424 17.2898C13.4814 16.876 15.0155 15.8548 16.0681 14.4101C17.1208 12.9654 17.6228 11.1922 17.4838 9.41009C17.3448 7.62797 16.5738 5.9541 15.3098 4.69012C14.0459 3.42614 12.372 2.65517 10.5899 2.51614C8.80774 2.37711 7.03456 2.87916 5.58985 3.93183C4.14514 4.9845 3.12391 6.51855 2.71019 8.25755C2.29646 9.99655 2.51745 11.8261 3.33333 13.4166L1.66667 18.3333L6.58333 16.6666Z"
                             stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
 
-                    <span style="font-weight: bold;">Solicitar orçamento</span>
-                </button>
+                    <span class="button-label">Solicitar orçamento</span>
+                    </span>
+                </a>
             </div>
 
         </div>
@@ -270,8 +276,8 @@
             <span class="pre-footer-subtitle">Entre em contato agora mesmo e receba um orçamento
                 personalizado em poucos minutos.</span>
             <div class="centralizador-de-buttons">
-                <a href="https://wa.me/5551996304406" style="font-style: none; text-decoration: none;">
-                    <button class="btn-1">
+                <a href="https://wa.me/5551996304406" target="_blank" rel="noopener noreferrer">
+                    <span class="btn-1">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M6.58333 16.6669C8.17381 17.4827 10.0034 17.7037 11.7424 17.29C13.4814 16.8763 15.0155 15.8551 16.0681 14.4104C17.1208 12.9656 17.6228 11.1925 17.4838 9.41034C17.3448 7.62821 16.5738 5.95434 15.3098 4.69036C14.0459 3.42638 12.372 2.65541 10.5899 2.51638C8.80774 2.37735 7.03456 2.87941 5.58985 3.93207C4.14514 4.98474 3.12391 6.51879 2.71018 8.2578C2.29646 9.9968 2.51745 11.8264 3.33333 13.4169L1.66666 18.3335L6.58333 16.6669Z"
@@ -279,40 +285,40 @@
                                 stroke-linejoin="round" />
                         </svg>
                         <span>Falar com Especialista</span>
-                    </button>
+                    </span>
                 </a>
-                <a href="https://wa.me/5551996304406" target="_blank">
-                    <button class="btn-2">
+                <a href="tel:+5551996304406">
+                    <span class="btn-2">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M18.3333 14.0999V16.5999C18.3343 16.832 18.2867 17.0617 18.1938 17.2744C18.1008 17.487 17.9644 17.6779 17.7934 17.8348C17.6224 17.9917 17.4205 18.1112 17.2006 18.1855C16.9808 18.2599 16.7478 18.2875 16.5167 18.2666C13.9524 17.988 11.4892 17.1117 9.325 15.7083C7.31152 14.4288 5.60445 12.7217 4.325 10.7083C2.91665 8.53426 2.0402 6.05908 1.76667 3.48325C1.74584 3.25281 1.77323 3.02055 1.84708 2.80127C1.92094 2.58199 2.03964 2.38049 2.19564 2.2096C2.35163 2.03871 2.5415 1.90218 2.75316 1.80869C2.96481 1.7152 3.19362 1.6668 3.425 1.66658H5.925C6.32942 1.6626 6.72149 1.80582 7.02813 2.06953C7.33478 2.33324 7.53506 2.69946 7.59167 3.09992C7.69719 3.89997 7.89288 4.68552 8.175 5.44158C8.28712 5.73985 8.31139 6.06401 8.24492 6.37565C8.17846 6.68729 8.02405 6.97334 7.8 7.19992L6.74167 8.25825C7.92796 10.3445 9.65538 12.072 11.7417 13.2583L12.8 12.1999C13.0266 11.9759 13.3126 11.8215 13.6243 11.755C13.9359 11.6885 14.2601 11.7128 14.5583 11.8249C15.3144 12.107 16.0999 12.3027 16.9 12.4083C17.3048 12.4654 17.6745 12.6693 17.9388 12.9812C18.2031 13.2931 18.3435 13.6912 18.3333 14.0999Z"
                                 stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         <span>Ligar agora</span>
-                    </button>
+                    </span>
                 </a>
             </div>
         </div>
 
         <footer>
             <div class="footer-top">
-                <div style="display: flex; justify-content: end;">
-                    <img style="width: 120px; margin-bottom: 20px;" src="./assets/logo.png" alt="Logo">
+                <div class="footer-brand">
+                    <img class="footer-logo" src="./assets/logo.png" alt="Transvitória">
 
-                    <span style="font-size: 14px;">Soluções completas em transporte de cargas e veículos. Mais
+                    <span class="footer-description">Soluções completas em transporte de cargas e veículos. Mais
                         de 35 anos conectando empresas em todo o Brasil.</span>
                 </div>
                 <div class="links-rapidos">
-                    <span style="font-size: 16px; color: white; font-weight: bold;">Links Rápidos</span>
+                    <span class="footer-heading">Links Rápidos</span>
 
                     <ul class="ul-footer">
-                        <li>Home</li>
-                        <li>Serviços</li>
-                        <li>Quem Somos</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services-section">Serviços</a></li>
+                        <li><a href="#quem-somos-section">Quem Somos</a></li>
                     </ul>
                 </div>
                 <div class="container-footer-contatos">
-                    <span style="font-size: 16px; color: white; font-weight: bold;">Contato</span>
+                    <span class="footer-heading">Contato</span>
                     <ul class="ul-footer">
                         <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -322,7 +328,7 @@
                                     stroke="#F7C626" stroke-width="1.33333" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                            <span>(51) 99630-4406</span>
+                            <span>(51)&nbsp;99630-4406</span>
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -359,12 +365,12 @@
             <div class="horizontal-row"></div>
             <div class="footer-bottom">
                 <span>© 2026 Transportadora Vitória.</span>
-                <span style="margin-left: 50px;">Desenvolvido por Agência ROAS.</span>
+                <span>Desenvolvido por Agência ROAS.</span>
             </div>
         </footer>
 
     </section>
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
 </body>
 
 </html>
