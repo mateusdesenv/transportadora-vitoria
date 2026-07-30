@@ -91,3 +91,36 @@ for (let index = 0; index < itens2.length; index++) {
     itensHtml.push(element);
 }
 document.getElementById('container-main-cards-2').innerHTML = itensHtml.join('');
+
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mainNavigation = document.getElementById('main-navigation');
+
+function setMobileMenu(open) {
+    mobileMenuToggle.setAttribute('aria-expanded', String(open));
+    mobileMenuToggle.setAttribute('aria-label', open ? 'Fechar menu de navegação' : 'Abrir menu de navegação');
+    mainNavigation.classList.toggle('is-open', open);
+    document.body.classList.toggle('mobile-menu-open', open);
+}
+
+mobileMenuToggle.addEventListener('click', () => {
+    setMobileMenu(mobileMenuToggle.getAttribute('aria-expanded') !== 'true');
+});
+
+mainNavigation.addEventListener('click', (event) => {
+    if (event.target.closest('a')) {
+        setMobileMenu(false);
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && mobileMenuToggle.getAttribute('aria-expanded') === 'true') {
+        setMobileMenu(false);
+        mobileMenuToggle.focus();
+    }
+});
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 960) {
+        setMobileMenu(false);
+    }
+});
