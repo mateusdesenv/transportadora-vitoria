@@ -97,7 +97,7 @@ svg {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     inset: 0 0 auto;
     z-index: 20;
     min-height: var(--header-height);
@@ -106,7 +106,15 @@ header {
     justify-content: space-between;
     gap: 32px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-    background: linear-gradient(180deg, rgba(4, 17, 33, 0.82), rgba(4, 17, 33, 0));
+    background: rgba(5, 20, 38, 0.94);
+    box-shadow: 0 10px 30px rgba(4, 17, 33, 0.16);
+    backdrop-filter: blur(14px);
+}
+
+#main-content,
+#services-section,
+#quem-somos-section {
+    scroll-margin-top: calc(var(--header-height) + 16px);
 }
 
 .logo img {
